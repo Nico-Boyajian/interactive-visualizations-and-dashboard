@@ -16,7 +16,6 @@ function buildMetadata(sample) {
       panelMetadata.append("h6").text(`${key}: ${value}`
       );
     })
-    
 
 
 
