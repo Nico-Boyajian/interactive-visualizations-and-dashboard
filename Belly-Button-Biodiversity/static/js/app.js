@@ -11,11 +11,12 @@ function buildMetadata(sample) {
   // Hint: Inside the loop, you will need to use d3 to append new
   // tags for each key-value in the metadata.
   d3.json(metadataURL).then(function (data) {
+    
     Object.entries(data).forEach(([key, value]) => {
       panelMetadata.append("h6").text(`${key}: ${value}`
       );
     })
-    
+
 
 
     // BONUS: Build the Gauge Chart
