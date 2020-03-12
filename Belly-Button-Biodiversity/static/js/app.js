@@ -17,8 +17,6 @@ function buildMetadata(sample) {
       );
     })
 
-
-
     // BONUS: Build the Gauge Chart
 // buildGauge(data.WFREQ);
   // Enter a speed between 0 and 180
